@@ -1,10 +1,13 @@
 package main
 
-import "fmt" 
+import (
+		"fmt"
+		"belajar/calculation"
+		) 
 
 func main()  {
 	fmt.Println("belajar golang")
-	sentence := coba()
+	result := calculation.Add(8, 9)
 
-	fmt.Println(sentence)
+	fmt.Println(result)
 }

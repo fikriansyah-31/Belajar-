@@ -1,0 +1,1 @@
+Penamaan kata atau huruf harus menggunakan huruf kapital agar bisa di akses global package
