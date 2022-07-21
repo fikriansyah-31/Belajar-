@@ -7,7 +7,7 @@ import (
 
 func main()  {
 	fmt.Println("belajar golang")
-	result := calculation.Add(8, 9)
+	result := calculation.Multiply(8, 9)
 
 	fmt.Println(result)
 }
