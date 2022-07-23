@@ -1,1 +1,4 @@
 Penamaan kata atau huruf harus menggunakan huruf kapital agar bisa di akses global package
+
+Harus mendifinisikan type data, Tipe data yang sering di pake di golang 
+- String, - int, float64, - bool atau boolean 

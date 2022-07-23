@@ -2,12 +2,18 @@ package main
 
 import (
 		"fmt"
-		"belajar/calculation"
 		) 
 
-func main()  {
-	fmt.Println("belajar golang")
-	result := calculation.Multiply(8, 9)
+func main()  { // Seleksi If, Else, dan Else if 
+	var point = 12 
 
-	fmt.Println(result)
+	if point == 12 {
+		fmt.Println("lulusan dengan nilai sempurna")
+	} else if point > 10 {
+		fmt.Println("lulus")
+	} else if point == 4 {
+		fmt.Println("Kurang Baik")
+	} else {
+		fmt.Println("tidak lulus", point)
+	}
 }
